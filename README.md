@@ -28,5 +28,14 @@ app.listen(3000, () => console.log('Server started on port 3000'));
 ```
 
 `3. Set up the frontend using React:`
+
 `4. Make API requests from the frontend:`
+- Use the fetch API or a library like Axios to make API requests from the frontend to the backend.
+- You can also use other HTTP methods such as post, put, patch, and delete by calling the corresponding method on the axios object:
+```
+axios.post('https://api.example.com/data', { username: 'john_doe', password: 'password123' })
+  .then(response => console.log(response.data))
+  .catch(error => console.error(error));
+
+```
 
