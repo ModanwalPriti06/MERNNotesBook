@@ -39,3 +39,8 @@ axios.post('https://api.example.com/data', { username: 'john_doe', password: 'pa
 
 ```
 
+`5.Connect the frontend to the backend:`
+
+- In your React components, call the API methods you defined to make requests to the backend.
+- Use the response data to update the component state and render the data on the frontend.
+
